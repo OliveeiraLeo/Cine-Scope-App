@@ -1,0 +1,68 @@
+/* Botão de Reset de Filtros */
+#reset-button {
+  background-color: #202227;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s ease-in-out;
+}
+
+#reset-button:hover {
+  background-color: #7a2929;
+  transform: scale(1.05);
+}
+
+/* Botão de Aplicar Filtros */
+#apply-filters-button {
+  background-color: #3a3f44;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s ease-in-out;
+}
+
+#apply-filters-button:hover {
+  background-color: #202227;
+  transform: scale(1.05);
+}
+
+/* Botão de Voltar (Favoritos) */
+#back-button {
+  background-color: #3a3f44;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin-top: 290px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s ease-in-out;
+}
+
+#back-button:hover {
+  background-color: #7a2929;
+  transform: scale(1.05);
+}
+
+/* Botões de Filtro no Menu Lateral */
+.filter-button {
+  background-color: #202227;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s ease-in-out;
+}
+
+.filter-button:hover {
+  background-color: #7a2929;
+  transform: scale(1.05);
+}

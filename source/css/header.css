@@ -1,0 +1,111 @@
+/* HEADER */
+
+/* Header */
+header {
+  background-color: #7a2929; 
+  color: #fff; 
+  padding: 5px 90px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  min-height: 50px; 
+}
+
+/* Logo */
+#logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 280px; 
+}
+
+/* Título Central */
+#title-container {
+  text-align: center; 
+  flex-grow: 1; 
+}
+
+#title-container h1 {
+  font-size: 2rem; 
+  margin: 0; 
+}
+
+/* Subtitulo Central */
+#title-container p {
+  font-size: 1rem; 
+  margin: 10px 0 0 0; 
+}
+
+/* Controle de Busca */
+#controls {
+  display: flex; 
+  align-items: center; 
+  gap: 6px; 
+}
+
+/* Search Bar */
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+#search-movie {
+  padding: 10px 35px 10px 15px; 
+  border-radius: 10px; 
+  border: 2px solid #ccc; 
+  background-color: #fff; 
+  color: #333; 
+  font-size: 1rem; 
+  width: 100%; 
+  transition: all 0.3s; 
+  box-sizing: border-box; 
+}
+
+#search-movie:focus {
+  outline: none; 
+  border-color: #ffcc00; 
+  box-shadow: 0 0 8px rgba(255, 204, 0, 0.6); 
+}
+
+/* Botão de Pesquisa */
+#search-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%); 
+  background: transparent; 
+  border: none; 
+  color: #a79a9a; 
+  font-size: 1.2rem; 
+  cursor: pointer; 
+  transition: color 0.3s ease-in-out; 
+}
+
+/* Botão de Pesquisa - Hover */
+#search-button:hover {
+  color: #ffcc00; 
+}
+
+/* Botão de Favoritos */
+#show-favorites {
+  padding: 10px 15px;
+  background-color: #ffcc00;
+  border: none;
+  margin-left: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s ease-in-out;
+  color: #202227;
+}
+
+/* Botão de Favoritos - Hover */
+#show-favorites:hover {
+  background-color: #e6b800; 
+}

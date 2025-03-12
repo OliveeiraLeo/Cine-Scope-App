@@ -1,0 +1,45 @@
+/* FOOTER */
+
+footer {
+  background-color: #1d1d1d; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+footer p {
+  margin: 10px 0 0 0; 
+  font-size: 1rem; 
+}
+
+footer .social-links {
+  margin-top: 15px; 
+}
+
+footer .social-links a {
+  margin: 0 10px; 
+  color: #fff; 
+  font-size: 1.5rem; 
+  text-decoration: none; 
+  transition: color 0.3s; 
+}
+
+footer .social-links a:hover {
+  color: #ffcc00; 
+}
+
+/* Link de Copyright */
+footer .copyright {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #bbb; 
+}
+
+footer .copyright a {
+  color: #ffcc00; 
+  text-decoration: none;
+}
+
+footer .copyright a:hover {
+  text-decoration: underline; 
+}

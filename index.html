@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cine Scope</title>
+
+  <link rel="stylesheet" href="source/css/global.css">  
+  <link rel="stylesheet" href="source/css/header.css">
+  <link rel="stylesheet" href="source/css/buttons.css">
+  <link rel="stylesheet" href="source/css/filters.css">
+  <link rel="stylesheet" href="source/css/modals.css">
+  <link rel="stylesheet" href="source/css/cards.css">
+  <link rel="stylesheet" href="source/css/footer.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div id="logo-container">
+      <img src="assets/Logo.png" alt="Logo do Projeto" id="logo">
+    </div>
+
+    <div id="title-container">
+      <h1>Cine Scope</h1>
+      <p>Descubra filmes e explore o cinema com uma nova visão!</p>
+    </div>
+
+    <div id="controls">
+      <div id="filters-container"></div>
+      <div id="search-container"></div> 
+      <div id="favorites-container"></div>
+    </div>
+  </header>
+  <main>
+    <div id="movies-container"></div>
+  </main>
+  <footer>
+    <p>Desenvolvido por Leonardo Oliveira</p>
+  </footer>
+
+  <script src="source/js/api.js"></script>
+
+  <script src="source/js/searchBar.js"></script>
+  <script src="source/js/favButton.js"></script>
+  <script src="source/js/backButton.js"></script>
+
+  <script src="source/js/filters.js"></script>
+  <script src="source/js/render.js"></script>
+  <script src="source/js/modal.js"></script>
+
+</body>
+</html>
